@@ -7,7 +7,7 @@ addpath('./export_fig')
 %% Rimini demo
 filename = 'robot_logger_device_2022_06_16_15_38_03.mat';
 destination = 'data/Rimini/';
-url = "https://github.com/ami-iit/iCub3AvatarSystem-data/raw/main/Rimini/robot_logger_device_2022_06_16_15_38_03.mat";
+url = "https://github.com/ami-iit/icub3-avatar-system-paper-data/raw/main/Rimini/robot_logger_device_2022_06_16_15_38_03.mat";
 fullpath = fullfile(destination, filename);
 if ~isfile(fullpath)
     if ~exist(destination, 'dir')
@@ -95,7 +95,7 @@ end
 
 filename = 'robot_logger_device_2022_03_21_16_14_41.mat';
 destination = 'data/Semifinals/';
-url = "https://github.com/ami-iit/iCub3AvatarSystem-data/raw/main/Semifinals/robot_logger_device_2022_03_21_16_14_41.mat";
+url = "https://github.com/ami-iit/icub3-avatar-system-paper-data/raw/main/Semifinals/robot_logger_device_2022_03_21_16_14_41.mat";
 fullpath = fullfile(destination, filename);
 if ~isfile(fullpath)
     if ~exist(destination, 'dir')
@@ -142,7 +142,7 @@ end
 
 filename = 'robot_logger_device_2022_03_21_16_28_38.mat';
 destination = 'data/Semifinals/';
-url = "https://github.com/ami-iit/iCub3AvatarSystem-data/raw/main/Semifinals/robot_logger_device_2022_03_21_16_28_38.mat";
+url = "https://github.com/ami-iit/icub3-avatar-system-paper-data/raw/main/Semifinals/robot_logger_device_2022_03_21_16_28_38.mat";
 fullpath = fullfile(destination, filename);
 if ~isfile(fullpath)
     if ~exist(destination, 'dir')
@@ -187,7 +187,7 @@ end
 
 filename = 'robot_logger_device_2022_03_21_14_56_33.mat';
 destination = 'data/Semifinals/';
-url = "https://github.com/ami-iit/iCub3AvatarSystem-data/raw/main/Semifinals/robot_logger_device_2022_03_21_14_56_33.mat";
+url = "https://github.com/ami-iit/icub3-avatar-system-paper-data/raw/main/Semifinals/robot_logger_device_2022_03_21_14_56_33.mat";
 fullpath = fullfile(destination, filename);
 if ~isfile(fullpath)
     if ~exist(destination, 'dir')
