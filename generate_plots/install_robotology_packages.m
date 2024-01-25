@@ -80,7 +80,7 @@ function install_robotology_packages(varargin)
 
     % Install all the robotology packages related to MATLAB or Simulink
     fprintf('Installing robotology packages\n');
-    system(sprintf('"%s" install -y -c conda-forge -c robotology idyntree-matlab-bindings', conda_full_path));
+    system(sprintf('"%s" install -y -c conda-forge -c robotology idyntree-matlab-bindings==10.0.0', conda_full_path));
     fprintf('Installation of robotology packages completed\n');
 
     fprintf('Creating setup script in %s\n', setup_script);
